@@ -1,0 +1,78 @@
+*{
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+}
+
+.main{
+    width: 35%;
+    margin: 10%;
+    margin-left: 35%;
+    border: 1px solid;
+    align-items: center;
+    text-align: center;    
+    border-radius: 5%;    
+}
+
+.display {
+    color: white;
+}
+
+.screen{
+    align-items: end;
+    text-align: end;
+    padding-right: 360px;
+    margin: 0px;
+    font-size: 50px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 10px;
+    padding: 30px;
+}
+
+.number{
+    background-color: rgb(168, 166, 166);
+    border: 0.5px solid;
+    border-radius: 100%;
+    padding: 20px;
+    margin: 3px;
+    cursor: pointer;
+    width: 15px;
+}
+
+.numberZero{
+    background-color: rgb(168, 166, 166);
+    border: 0.5px solid;
+    border-radius: 45%;
+    padding: 20px;
+    margin: 3px;
+    width: 78px;
+    cursor: pointer;
+}
+
+.operation{
+    background-color: rgb(214, 130, 20);
+    border-radius: 5%;
+    border: 0.5px solid;
+    border-radius: 100%;
+    padding: 20px;
+    cursor: pointer;
+    margin: 3px;
+    width: 15px;
+}
+
+.operationClear{
+    background-color: rgb(214, 130, 20);
+    border-radius: 5%;
+    border: 0.5px solid;
+    border-radius: 100%;
+    padding: 20px;
+    cursor: pointer;
+    margin: 3px;
+    width: 15px;
+}
